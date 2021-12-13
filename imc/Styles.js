@@ -2,6 +2,12 @@ import React from 'react'
 import { StyleSheet } from 'react-native'
 
 const styles = StyleSheet.create({
+    screen: {
+        flex:1,  
+        alignContent: 'center',
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
     box: {
         margin: 20,
         padding:0,
